@@ -1,0 +1,494 @@
+#########P
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name": "test",
+    "email": "tes3@tes.com",
+    "password": "123456"
+}
+######
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email": "tes3@tes.com",
+    "password": "123456"
+}
+
+######
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Bandung",
+    "date": "2025-01-15",
+    "description": "Longsor terjadi setelah hujan deras selama dua hari berturut-turut, menutup jalan utama.",
+    "district": "Bandung",
+    "province": "Jawa Barat",
+    "rtRw": "010/015",
+    "time": "10:30",
+    "village": "Cihampelas"
+}
+######
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Malang",
+    "date": "2025-03-03",
+    "description": "Longsor yang menutupi jalan raya akibat curah hujan tinggi dan rusaknya saluran air.",
+    "district": "Malang",
+    "province": "Jawa Timur",
+    "rtRw": "015/020",
+    "time": "13:45",
+    "village": "Blimbing"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Yogyakarta",
+    "date": "2025-04-10",
+    "description": "Longsor yang menghancurkan rumah-rumah warga akibat tingginya curah hujan di kawasan pegunungan.",
+    "district": "Kota Yogyakarta",
+    "province": "DIY",
+    "rtRw": "012/013",
+    "time": "17:30",
+    "village": "Sosromenduran"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Surabaya",
+    "date": "2025-03-28",
+    "description": "Longsor terjadi di daerah perbukitan setelah hujan deras selama semalam suntuk.",
+    "district": "Surabaya",
+    "province": "Jawa Timur",
+    "rtRw": "014/017",
+    "time": "06:00",
+    "village": "Kaliwaron"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Medan",
+    "date": "2025-02-20",
+    "description": "Longsor terjadi akibat hujan deras yang mengguyur daerah pegunungan, menyebabkan tanah bergerak menutupi jalan.",
+    "district": "Medan",
+    "province": "Sumatera Utara",
+    "rtRw": "003/004",
+    "time": "11:15",
+    "village": "Kampung Baru"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Bali",
+    "date": "2025-01-30",
+    "description": "Longsor yang terjadi di daerah Bali Utara setelah hujan lebat yang menggerus lereng gunung.",
+    "district": "Badung",
+    "province": "Bali",
+    "rtRw": "021/019",
+    "time": "14:25",
+    "village": "Ubud"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Jakarta",
+    "date": "2025-05-05",
+    "description": "Longsor akibat hujan lebat yang menyebabkan tanah longsor di area perbukitan di Jakarta Selatan.",
+    "district": "Jakarta Barat",
+    "province": "DKI Jakarta",
+    "rtRw": "007/011",
+    "time": "09:10",
+    "village": "Grogol"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Semarang",
+    "date": "2025-02-25",
+    "description": "Longsor terjadi di daerah perbukitan Semarang setelah hujan lebat, menimbun jalan utama.",
+    "district": "Semarang",
+    "province": "Jawa Tengah",
+    "rtRw": "022/023",
+    "time": "16:20",
+    "village": "Tlogosari"
+}
+######
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Pekanbaru",
+    "date": "2025-03-13",
+    "description": "Longsor terjadi di daerah perbukitan akibat hujan deras dan tidak terawatnya saluran air.",
+    "district": "Pekanbaru",
+    "province": "Riau",
+    "rtRw": "009/016",
+    "time": "18:00",
+    "village": "Tampan"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Lampung",
+    "date": "2025-04-12",
+    "description": "Longsor terjadi di daerah perbukitan Lampung akibat hujan lebat yang menggerus tanah.",
+    "district": "Bandar Lampung",
+    "province": "Lampung",
+    "rtRw": "011/014",
+    "time": "09:45",
+    "village": "Way Dadi"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Solo",
+    "date": "2025-01-20",
+    "description": "Longsor menutupi jalan utama Solo-Magelang setelah hujan deras semalaman.",
+    "district": "Solo",
+    "province": "Jawa Tengah",
+    "rtRw": "013/018",
+    "time": "05:30",
+    "village": "Kadipiro"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Surabaya",
+    "date": "2025-02-01",
+    "description": "Longsor terjadi akibat erosi tanah setelah hujan deras mengguyur daerah Surabaya bagian selatan.",
+    "district": "Surabaya",
+    "province": "Jawa Timur",
+    "rtRw": "017/020",
+    "time": "11:30",
+    "village": "Taman"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Banjarmasin",
+    "date": "2025-03-18",
+    "description": "Longsor menutup jalan trans Kalimantan akibat curah hujan yang tinggi dan tanah yang tidak stabil.",
+    "district": "Banjarmasin",
+    "province": "Kalimantan Selatan",
+    "rtRw": "006/014",
+    "time": "15:40",
+    "village": "Pangeran"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Medan",
+    "date": "2025-05-05",
+    "description": "Longsor mengancam permukiman warga setelah hujan deras yang mengguyur daerah perbukitan Medan.",
+    "district": "Medan",
+    "province": "Sumatera Utara",
+    "rtRw": "002/004",
+    "time": "07:00",
+    "village": "Deli Serdang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Makassar",
+    "date": "2025-04-25",
+    "description": "Longsor terjadi di daerah perbukitan Makassar akibat hujan deras yang mengguyur semalaman.",
+    "district": "Makassar",
+    "province": "Sulawesi Selatan",
+    "rtRw": "005/009",
+    "time": "03:15",
+    "village": "Tallo"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Palembang",
+    "date": "2025-03-21",
+    "description": "Longsor terjadi setelah hujan deras yang menggerus tebing di kawasan pemukiman Palembang.",
+    "district": "Palembang",
+    "province": "Sumatera Selatan",
+    "rtRw": "014/017",
+    "time": "10:25",
+    "village": "Kertapati"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Pontianak",
+    "date": "2025-02-10",
+    "description": "Longsor terjadi di daerah bukit Pontianak, menutupi jalan raya dan menyebabkan kemacetan panjang.",
+    "district": "Pontianak",
+    "province": "Kalimantan Barat",
+    "rtRw": "018/019",
+    "time": "06:50",
+    "village": "Sungai Raya"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Tangerang",
+    "date": "2025-01-28",
+    "description": "Longsor di kawasan Tangerang Selatan akibat hujan deras yang mengguyur daerah perbukitan.",
+    "district": "Tangerang",
+    "province": "Banten",
+    "rtRw": "022/023",
+    "time": "08:05",
+    "village": "Serpong"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Bandung",
+    "date": "2025-05-02",
+    "description": "Longsor besar terjadi di daerah pegunungan Bandung, menutupi jalur transportasi utama.",
+    "district": "Bandung",
+    "province": "Jawa Barat",
+    "rtRw": "007/010",
+    "time": "12:00",
+    "village": "Cimenyan"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Cirebon",
+    "date": "2025-03-30",
+    "description": "Longsor terjadi di kawasan perbukitan Cirebon setelah curah hujan yang sangat tinggi.",
+    "district": "Cirebon",
+    "province": "Jawa Barat",
+    "rtRw": "014/019",
+    "time": "16:10",
+    "village": "Gunung Jati"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Samarinda",
+    "date": "2025-04-15",
+    "description": "Longsor melanda Samarinda akibat tanah yang labil dan hujan deras yang mengguyur kawasan tersebut.",
+    "district": "Samarinda",
+    "province": "Kalimantan Timur",
+    "rtRw": "001/002",
+    "time": "09:50",
+    "village": "Sungai Kunjang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Jakarta",
+    "date": "2025-03-08",
+    "description": "Longsor terjadi di daerah Jakarta Timur setelah hujan lebat, menyebabkan tanah bergerak menutupi jalan raya.",
+    "district": "Jakarta Timur",
+    "province": "DKI Jakarta",
+    "rtRw": "005/007",
+    "time": "14:00",
+    "village": "Cipayung"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Yogyakarta",
+    "date": "2025-05-10",
+    "description": "Longsor di daerah pegunungan Merapi akibat hujan deras yang mengguyur daerah tersebut.",
+    "district": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "rtRw": "002/003",
+    "time": "14:30",
+    "village": "Cangkringan"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Semarang",
+    "date": "2025-02-18",
+    "description": "Longsor menimpa kawasan perumahan di Semarang akibat hujan lebat yang menyebabkan tanah longsor.",
+    "district": "Semarang",
+    "province": "Jawa Tengah",
+    "rtRw": "008/014",
+    "time": "16:00",
+    "village": "Tembalang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Aceh",
+    "date": "2025-03-22",
+    "description": "Longsor terjadi di daerah perbukitan Aceh akibat curah hujan yang tinggi selama beberapa hari.",
+    "district": "Banda Aceh",
+    "province": "Aceh",
+    "rtRw": "004/009",
+    "time": "17:45",
+    "village": "Baiturrahman"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Surabaya",
+    "date": "2025-04-04",
+    "description": "Longsor di daerah perbukitan Surabaya menutup jalan raya dan menyebabkan kerusakan infrastruktur.",
+    "district": "Surabaya",
+    "province": "Jawa Timur",
+    "rtRw": "019/021",
+    "time": "07:30",
+    "village": "Gubeng"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Palembang",
+    "date": "2025-01-10",
+    "description": "Longsor terjadi di daerah Bukit Sembilan di Palembang akibat hujan deras yang menyebabkan tanah bergerak.",
+    "district": "Palembang",
+    "province": "Sumatera Selatan",
+    "rtRw": "014/019",
+    "time": "12:20",
+    "village": "Ilir Barat"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Pontianak",
+    "date": "2025-02-17",
+    "description": "Longsor di daerah perbukitan Pontianak menyebabkan tanah longsor yang menghalangi jalan utama.",
+    "district": "Pontianak",
+    "province": "Kalimantan Barat",
+    "rtRw": "010/013",
+    "time": "18:00",
+    "village": "Bengkayang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Bali",
+    "date": "2025-05-20",
+    "description": "Longsor terjadi di daerah pegunungan Bali akibat curah hujan yang tinggi selama beberapa hari berturut-turut.",
+    "district": "Denpasar",
+    "province": "Bali",
+    "rtRw": "003/005",
+    "time": "09:30",
+    "village": "Kuta"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Jakarta",
+    "date": "2025-06-12",
+    "description": "Longsor di daerah Jakarta Selatan setelah hujan lebat menyebabkan banjir dan tanah longsor.",
+    "district": "Jakarta Selatan",
+    "province": "DKI Jakarta",
+    "rtRw": "006/008",
+    "time": "08:50",
+    "village": "Kemang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Medan",
+    "date": "2025-02-08",
+    "description": "Longsor menutup jalan di Medan akibat tanah longsor yang terjadi setelah hujan deras.",
+    "district": "Medan",
+    "province": "Sumatera Utara",
+    "rtRw": "003/007",
+    "time": "16:30",
+    "village": "Merdeka"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Makassar",
+    "date": "2025-01-25",
+    "description": "Longsor besar terjadi di daerah perbukitan Makassar akibat hujan deras yang berlangsung semalaman.",
+    "district": "Makassar",
+    "province": "Sulawesi Selatan",
+    "rtRw": "002/005",
+    "time": "06:45",
+    "village": "Sudiang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Bandung",
+    "date": "2025-03-05",
+    "description": "Longsor di daerah Bandung Barat menyebabkan banyak pohon tumbang dan menutupi jalan raya.",
+    "district": "Bandung",
+    "province": "Jawa Barat",
+    "rtRw": "013/016",
+    "time": "14:00",
+    "village": "Padalarang"
+}
+###
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+    "city": "Semarang",
+    "date": "2025-04-15",
+    "description": "Longsor terjadi di Semarang setelah hujan lebat yang menggerus tanah di sepanjang tebing.",
+    "district": "Semarang",
+    "province": "Jawa Tengah",
+    "rtRw": "010/012",
+    "time": "13:30",
+    "village": "Ungaran"
+}
